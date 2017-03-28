@@ -1,0 +1,75 @@
+*, *:after, *:before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width:100%;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+}
+
+/*
+
+.title {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    padding:30px;
+}
+
+.title h2 {
+    text-align:center;
+    font-size:1.3em;
+    border-bottom:1px solid #fff;
+    color:#fff;
+}
+
+.title p {
+    width:300px;
+    font-size:1em;
+    color:#fff;
+    text-align:center;
+    padding-top:10px;
+}
+
+*/
+
+.split {
+    position:absolute;
+    height:100%;
+    top:0;
+}
+
+.first {
+    background:url('../img/main-bg.jpg');
+    background-size:cover;
+    left:0;
+    width:50%;
+    transition: all 0.5s ease;
+}
+
+.second {
+    background:url('../img/case-bg.jpg');
+    background-size:cover;
+    width:50%;
+    transition: all 0.5s ease;
+    right:0;
+}
+
+.rolled{
+    width:70%;
+    transition: all 0.5s ease;
+}
+
+.shrinked {
+    width:30%;
+    transition: all 0.5s ease;
+}
+
+.onTop {
+    z-index:999;
+}
